@@ -1,0 +1,78 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&display=swap');
+        html  {
+            background: #bacec1;
+            color: black;
+            scroll-behavior: smooth;
+            
+        }
+        * {
+            margin: 0%;
+        }
+        #sign {
+            margin-left: 150px;
+            margin-right: 150px;
+            margin-top: 100px;
+            padding-bottom: 20px;
+            background: #f6f4e8;
+            font-family: 'Azeret Mono', monospace;
+            font-size: 22px;
+            border-radius: 10px;
+        }
+        #sign h1{
+            font-size: 70px;
+            text-align: center;
+            font-family: 'Teko', sans-serif;
+        }
+        #det {
+            background: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 5px;;
+            width: 90%;
+            border: none;
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 900;
+            font-size: 22px;
+            text-align: left;
+        }
+        #get {
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 900;
+            font-size: 40px;
+            background: #1d3124;
+            color: white;
+            text-decoration: none;
+            margin-left: 300px;
+            margin-right: 300px;
+            margin-bottom: 20px;
+            margin-top: 25px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        #get:hover {
+            background: white;
+            color: black;
+            transition: 2s;
+        }
+    </style>
+    <div id="sign">
+        <h1>Get Started</h1>
+        <form>
+            <input type="text" required placeholder="Username" id="det">
+            <input type="email" required placeholder="Email" id="det">
+            <input type="password" required placeholder="Password" id="det">        
+        </form>
+        <A href="todou.html" id="get">Start</A>
+    </div>
+</html>

@@ -34,10 +34,44 @@
             padding-bottom: 5px;
             border-radius: 5px;
             border-left: 10px solid #1d3124;
+            width: 90%;
         }
         #cards:hover {
             transform: scale(1.03);
             transition: 0.5s;
+        }
+        #adding {
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            font-size: 22px;
+            border: none;
+            border-radius: 2px;
+            padding: 5px;
+            width: 80%;
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 900;
+        }
+        #addbut {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 25px;
+            background: #1d3124;
+            border-radius: 2px;
+            color: #f6f4e8;
+            text-decoration: none;
+        }
+        #addbut a{
+            color: #f6f4e8;
+            text-decoration: none;
+            font-size: 22px;
+        }
+        #addbut:hover {
+            background: #f6f4e8;
+            color: black;
+            transition: 2s;
         }
         #end1 {
             font-size: 25px;
@@ -71,6 +105,12 @@
     </head>
     <div id="todo">
         <h1>To Do</h1>
+        <div id="add">
+            <form>
+            <input type="text" id="adding" placeholder="Add New Task">
+            <a href="" id="addbut">+</a>
+            </form>
+        </div>
 
             <div id="cards">
                 Pooping
@@ -85,7 +125,7 @@
                 Breathing
             </div>
             <div id="end1">
-                You currently have x tasks <b><A href="">Clear All</A></b>
+                You currently have 4 tasks <b><A href="">Clear All</A></b>
             </div>
         
     </div>
